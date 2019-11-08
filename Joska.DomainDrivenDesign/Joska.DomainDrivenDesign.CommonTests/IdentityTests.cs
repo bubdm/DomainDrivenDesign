@@ -35,5 +35,16 @@ namespace Joska.DomainDrivenDesign.Common.Tests
             id2.Set(127);
             Assert.AreEqual(id, id2);
         }
+
+        [TestMethod]
+        public void TestEqualsPositiveOperator()
+        {
+            var id = new Identity<int>();
+            id.Set(127);
+            var id2 = new Identity<int>();
+            id2.Set(127);
+            Assert.IsTrue(id == id2);
+        }
+
     }
 }
