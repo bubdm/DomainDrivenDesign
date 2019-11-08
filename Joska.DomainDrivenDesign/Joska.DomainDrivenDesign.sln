@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Joska.DomainDrivenDesign.Common", "Joska.DomainDrivenDesign.Common\Joska.DomainDrivenDesign.Common.csproj", "{392A5AA5-3560-417B-92BF-87EA6ABB0E89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Joska.DomainDrivenDesign.Common", "Joska.DomainDrivenDesign.Common\Joska.DomainDrivenDesign.Common.csproj", "{392A5AA5-3560-417B-92BF-87EA6ABB0E89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Joska.DomainDrivenDesign.CommonTests", "Joska.DomainDrivenDesign.CommonTests\Joska.DomainDrivenDesign.CommonTests.csproj", "{809D4F37-2E5E-4AED-B54D-B1F70BA5C529}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{392A5AA5-3560-417B-92BF-87EA6ABB0E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{392A5AA5-3560-417B-92BF-87EA6ABB0E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{392A5AA5-3560-417B-92BF-87EA6ABB0E89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{809D4F37-2E5E-4AED-B54D-B1F70BA5C529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{809D4F37-2E5E-4AED-B54D-B1F70BA5C529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{809D4F37-2E5E-4AED-B54D-B1F70BA5C529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{809D4F37-2E5E-4AED-B54D-B1F70BA5C529}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
