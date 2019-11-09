@@ -20,7 +20,6 @@ namespace Joska.DomainDrivenDesign.Common.Tests
             yield return A;
             yield return B;
             yield return C;
-
         }
     }
 }
